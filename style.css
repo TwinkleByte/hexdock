@@ -3,6 +3,7 @@
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
     --pink: #f5c2e7;
+    --shiro: #ffffff;
     --mauve: #cba6f7;
     --red: #f38ba8;
     --maroon: #eba0ac;
@@ -46,7 +47,7 @@
     font-size: 18px;
 }
 .widget .label {
-    color: var(--text);
+    color: var(--shiro);
 }
 /*WORKSPACES WIDGET*/
 .glazewm-workspaces {
@@ -75,11 +76,11 @@
     width: 10px;
 }
 .glazewm-workspaces .ws-btn.populated {
-    background-color: var(--sky);
+    background-color: var(--shiro);
 }
 .glazewm-workspaces .ws-btn.active {
     color: rgba(149, 177, 255, 0);
-    background-color: var(--teal);
+    background-color: var(--blue);
     width: 36px;
     height: 10px;
     border-radius: 4px;
@@ -137,7 +138,7 @@
 }
 .media-widget .btn.play {
 	background-color: #313244;
-	border-radius: 14px;
+	border-radius: 1px;
 	font-size: 16px;
 }
 .media-widget .btn.disabled:hover,
@@ -194,6 +195,9 @@
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
+.disk-widget .icon {
+    color: var(--shiro);
+}
 /*DISK DROPDOWN*/
 .disk-group {
     background-color: var(--mantle);    
@@ -234,6 +238,9 @@
     padding-left: 7px;
     background-color: var(--surface1);
 }
+.wallpapers-widget .icon {
+    color: var(--shiro);
+}
 /*WALLPAPERS GALLERY*/
 .wallpapers-gallery-window {
     background-color: var(--mantle);
@@ -270,7 +277,7 @@
     background-color: var(--surface1);
 }
 .wifi-widget .icon {
-    color: #43d8d8;
+    color: var(--shiro);
 	padding: 0 7px;
 	margin: 0;
 }
@@ -281,7 +288,7 @@
 }
 .volume-widget .icon {
     padding: 0 6px;
-    color: var(--teal);
+    color: var(--shiro);
 }
 .volume-widget .label {
     font-size: 14px;
@@ -312,10 +319,10 @@
     border-bottom-right-radius: 16px;
 }
 .notification-widget .icon.new-notification {
-    color: #89b4fa;
+    color: var(--shiro)
 }
 .notification-widget .label.new-notification {
-    color: #89b4fa;
+    color: var(--shiro)
 }
 .notification-widget .icon {
     font-size: 14px;
