@@ -318,11 +318,14 @@
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
 }
+.notification-widget .icon {
+    color: var(--shiro);
+}
 .notification-widget .icon.new-notification {
-    color: var(--shiro)
+    color: var(--blue)
 }
 .notification-widget .label.new-notification {
-    color: var(--shiro)
+    color: var(--blue)
 }
 .notification-widget .icon {
     font-size: 14px;
