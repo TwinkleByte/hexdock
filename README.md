@@ -1,6 +1,6 @@
 # HexDock
 ## Preview
-![preview](https://github.com/user-attachments/assets/ce559132-28c1-4263-86f6-7278bfefcf5b)
+![preview](https://github.com/user-attachments/assets/4a45cf4a-c21a-42d5-8308-87015320b96d)
 
 ## Features:
 - **6 Docks**:  
