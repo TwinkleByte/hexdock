@@ -64,7 +64,7 @@ widgets:
         hide_empty: true
         thumbnail_alpha: 80
         thumbnail_padding: 8
-        thumbnail_corner_radius: 6
+        thumbnail_corner_radius: 14
         icons:
           prev_track: "\ue892"
           next_track: "\ue893"
